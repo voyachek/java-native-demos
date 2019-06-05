@@ -1,0 +1,12 @@
+{
+  "resources":[
+    {"pattern":"META-INF/services/org.apache.cayenne.configuration.server.CayenneServerModuleProvider"},
+    {"pattern":"db/cayenne-test.xml"},
+    {"pattern":"db/datamap.map.xml"},
+    {"pattern":"logback.xml"}, 
+    {"pattern":"org/apache/cayenne/dba/postgres/types.xml"}, 
+    {"pattern":"org/apache/velocity/runtime/defaults/directive.properties"}, 
+    {"pattern":"org/apache/velocity/runtime/defaults/velocity.properties"}, 
+    {"pattern":"org/slf4j/impl/StaticLoggerBinder.class"}
+  ]
+}

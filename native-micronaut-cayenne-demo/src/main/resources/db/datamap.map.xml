@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-map xmlns="http://cayenne.apache.org/schema/9/modelMap"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://cayenne.apache.org/schema/9/modelMap https://cayenne.apache.org/schema/9/modelMap.xsd"
+	 project-version="9">
+	<property name="defaultPackage" value="name.voyachek.demos.nativemcp.db"/>
+	<property name="defaultCatalog" value="demo_nativem"/>
+	<property name="defaultSchema" value="public"/>
+	<db-entity name="user" schema="public" catalog="demo_nativem">
+		<db-attribute name="id" type="BIGINT" isPrimaryKey="true" isMandatory="true"/>
+		<db-attribute name="name" type="NVARCHAR" isMandatory="true" length="500"/>
+	</db-entity>
+	<obj-entity name="User" className="name.voyachek.demos.nativemcp.db.User" dbEntityName="user">
+		<obj-attribute name="name" type="java.lang.String" db-attribute-path="name"/>
+	</obj-entity>
+</data-map>
