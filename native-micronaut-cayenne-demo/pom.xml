@@ -18,7 +18,7 @@
         <jdk.version>1.8</jdk.version>
         <micronaut.version>1.1.2</micronaut.version>
         <micronaut.openapi.version>1.1.1</micronaut.openapi.version>
-        <cayenne.version>4.0.1</cayenne.version>
+        <cayenne.version>4.1.1</cayenne.version>
     </properties>
 
     <dependencyManagement>
